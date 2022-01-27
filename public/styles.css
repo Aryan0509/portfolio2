@@ -1,0 +1,392 @@
+body{
+    background-color: rgba(174, 227, 243, 0.973);
+    font-family: 'poppins';
+    font-weight: 200;
+    width: 800px;
+}
+nav{
+    background-color: rgba(174, 227, 243, 0.973);
+    color: rgb(236, 115, 34);
+    height:70px;
+    border-radius: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    position: fixed;
+    width: 1500px;
+    top: 0px;
+    /* display: flex;
+     */
+     z-index: 1;
+     transition: top 0.3s;
+}
+nav:hover
+{
+    color: wheat;
+}
+nav li{
+    display: inline;
+    float: right;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+    
+}
+nav h1,nav h1 a {
+    padding-top: 20px;
+    padding-left: 40px;
+    position: relative;
+    bottom: 20px;
+    font-size: 2rem;
+}
+
+.name{
+    text-decoration: none;
+    color: rgb(236, 115, 34);
+    
+}
+.name:hover{
+    color: black;
+    
+}
+nav ul{
+    overflow: auto;
+    position: relative;
+    bottom: 105px;
+   
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(19, 1, 1);
+    font-weight: 700;   
+    border-bottom: 3px solid transparent;
+    display: block;
+}
+nav li a:hover{
+    color: rgb(216, 149, 25);
+    border-bottom: 3px dotted red;
+}
+/* nav li a:active{
+    border-bottom: 3px solid red;
+} */
+/* nav li a:visited{
+    color: rgb(41, 33, 19);
+} */
+section{
+    border:rgba(39, 34, 35, 0.973);
+    /* border-width: 5px; */
+    width: 800px;
+}
+.intro{
+
+    background-color: rgba(174, 227, 243, 0.973);
+    height: 700px;
+    margin-top: 70px;
+    
+}
+.intro h1{
+    font-size: 3rem;
+    margin: 0;
+    /* padding:100px;
+    padding-top: 200px;
+    padding-bottom: 0;
+    padding-left: 70px;
+    color: black; */
+}
+.line2{
+    position: relative;
+    bottom: 40px;
+}
+br{
+    height: 0;
+}
+.intro p{
+    font-size: 1.2rem;
+    /* padding:100px;
+    padding-top: 200px; */
+    /* padding-bottom: 0;
+    padding-left: 70px;
+    color: black; */
+    position: relative;
+    bottom: 60px; 
+}
+/* .hello
+{
+    position: relative;
+    top: 250px;
+} */
+.introtext{
+    position: relative;
+    top:180px;
+    left: 100px;
+}
+.my-img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left:900px;
+    bottom: 280px;
+    border-radius: 20px;
+}
+button{
+    background-color: rgb(236, 115, 34);
+    border-radius: 30px;
+    width:120px;
+    height: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;
+    border: 0px;
+    /* padding: 50px; */
+    margin: 10px;
+}
+button:hover{
+    background-color: rgb(224, 141, 63);
+}
+.buttons{
+    display: flex;
+    position: relative;
+    top: 130px;
+    left: 84px;
+
+}
+.socials{
+    position: relative;
+    left:500px;
+    top: 80px;
+    font-size: 1.2rem;
+}
+.iconlink{
+    text-decoration: none;
+}
+.iconlink:hover{
+    color: black;
+}
+.fab {
+    padding: 5px;
+    text-decoration: none;
+}
+.hobbies{
+
+    background-color:rgba(189, 233, 247, 0.973);
+    height: 450px;
+    text-align: center;
+    padding: 70px;
+    padding-top: 200px;
+    width: 1370px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+   
+}
+.hobbies h1{
+    font-size: 3rem;
+    position: relative;
+    bottom: 160px;
+    left: 0px;
+    text-decoration: underline;
+}
+.hobbie-cards{
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 80px;
+    right: 0
+}
+.hobbie-card{
+    background-color: rgba(174, 227, 243, 0.973);
+    padding: 60px;
+    margin: 20px;
+}
+
+.skills{
+
+    background-color: rgba(189, 233, 247, 0.973);
+    height: 700px;
+    padding-top: 10px;
+    width: 1510px;
+    /* text-align: center; */
+}
+.skills h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+hr{
+    width: 1000px;
+    border: double 2px;
+    position: relative;
+    left: 250px;
+}
+.icon{
+   font-size: 1000px;
+}
+/* .skills{
+    padding-left: 50px;
+} */
+
+.skill{
+    padding-left: 300px
+}
+.skill p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#progressbar-css {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 1000px;
+    height: 10px;
+  }
+  
+  #progressbar-css>div {
+    background-color: orange;
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbarhtml {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3p-jsx;
+    width: 1000px;
+    height: 10px;
+  }
+  
+  #progressbarhtml>div {
+    background-color: orange;
+    width: 10%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbar-js {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 1000px;
+    height: 10px;
+  }
+  
+  #progressbar-js>div {
+    background-color: orange;
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbar-njs {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 1000px;
+    height: 10px;
+  }
+  
+  #progressbar-njs>div {
+    background-color: orange;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbar-rjs {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 1000px;
+    height: 10px;
+  }
+  
+  #progressbar-rjs>div {
+    background-color: orange;
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbar-dsa {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 1000px;
+    height: 10px;
+  }
+  
+  #progressbar-dsa>div {
+    background-color: orange;
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbar {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 1000px;
+    height: 10px;
+  }
+  
+  #progressbar>div {
+    background-color: orange;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  .test{
+    color: rgb(216, 149, 25);
+    border-bottom: 3px dotted red;
+  }
+  .contact{
+
+    background-color: rgba(189, 233, 247, 0.973);
+    height: 680px;
+    width: 1500px;
+}
+.contact-header{
+   
+   padding-top: 80px;
+    padding-left: 100px;
+}
+.contact-header h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 20px;
+}
+.contact-header p{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.formm{
+    padding-left: 100px;
+}
+input{
+    width: 40%;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.input-message{
+    margin-top: 15px;
+    width: 60%;
+    height: 150px;
+}
+.contactbutton{
+   margin-right: 900px;
+   /* position: relative;
+   bottom: 100px; */
+}
+textarea{
+    border-radius: 10px;
+}
+label{
+    font-weight: 400;
+}
