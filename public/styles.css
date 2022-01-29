@@ -12,7 +12,7 @@ nav{
     margin-top: 0;
     padding-top: 0;
     position: fixed;
-    width: 1500px;
+    width: 100%;
     top: 0px;
     /* display: flex;
      */
@@ -74,7 +74,8 @@ nav li a:hover{
 section{
     border:rgba(39, 34, 35, 0.973);
     /* border-width: 5px; */
-    width: 800px;
+    width: 100%;
+    align-items: center;
 }
 .intro{
 
@@ -276,7 +277,7 @@ hr{
   
   #progressbar-js>div {
     background-color: orange;
-    width: 70%;
+    width: 60%;
     height: 10px;
     border-radius: 10px;
   }
@@ -291,7 +292,7 @@ hr{
   
   #progressbar-njs>div {
     background-color: orange;
-    width: 90%;
+    width: 80%;
     height: 10px;
     border-radius: 10px;
   }
@@ -306,7 +307,7 @@ hr{
   
   #progressbar-rjs>div {
     background-color: orange;
-    width: 70%;
+    width: 60%;
     height: 10px;
     border-radius: 10px;
   }
@@ -336,7 +337,7 @@ hr{
   
   #progressbar>div {
     background-color: orange;
-    width: 90%;
+    width: 80%;
     height: 10px;
     border-radius: 10px;
   }
@@ -348,7 +349,7 @@ hr{
 
     background-color: rgba(189, 233, 247, 0.973);
     height: 680px;
-    width: 1500px;
+    width: 1510px;
 }
 .contact-header{
    
@@ -360,6 +361,7 @@ hr{
     margin-bottom: 0;
     position: relative;
     bottom: 20px;
+    text-decoration: underline;
 }
 .contact-header p{
     font-size: 1.5rem;

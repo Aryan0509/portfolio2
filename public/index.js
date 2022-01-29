@@ -28,6 +28,14 @@ function myFunction() {
   }
 
 }
+// document.getElementById("btnn").addEventListener("onclick", myFunctionn);
+
+// function myFunctionn() {
+//   alert("Your message has been sent");
+// }
+document.getElementById("btnn").onclick=function(){
+ console.log("he");
+}
 // function myFunction() {
 //     if ((document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) && (document.body.scrollTop < 50 || document.documentElement.scrollTop < 50)) {
 //       document.getElementById("home").className = "test";
